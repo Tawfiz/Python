@@ -1,0 +1,27 @@
+list = ['Ronaldo', 'Messi', 'Neymar', 'Mbappe', 'Benzema']
+print("Lenth of list:", len(list))
+print("First element:", list[0])
+print("Last element:", list[-1])
+
+list.append('Salah')
+print("Updated list:", list)
+
+list.remove('Benzema')
+print("Updated list:", list)
+ 
+list.sort()
+print("Sorted list:", list)
+
+list.pop()
+print("Updated list:", list)
+
+list.reverse()
+print("Reversed list:", list)
+
+print("Multiplication on list:", list * 2)
+
+list = list[:4]
+print("Sliced list:", list)
+
+list.clear()
+print("Cleared list:", list)
