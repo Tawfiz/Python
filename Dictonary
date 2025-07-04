@@ -1,0 +1,24 @@
+my_dict = {}
+
+my_dict = {1:'apple', 2:'banana'}
+
+my_dict = {'name': 'Diago Jota', 1:[2,3,4]}
+
+my_dict = {'name':'cristiano ronaldo', 'age': 40, 'team': 'Al Nassr'}
+
+print(my_dict['name'])
+print(my_dict.get('age'))
+
+my_dict['age']= 28
+print(my_dict)
+
+my_dict ['address'] = '123 Main St'
+print(my_dict)
+
+my_dict.pop('age')
+print(my_dict)
+
+print("Address:", my_dict['address'])
+
+my_dict.clear()
+print(my_dict)
